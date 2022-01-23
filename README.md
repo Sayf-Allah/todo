@@ -1,7 +1,7 @@
-<img src="todo.png" height="150" >
+<img src="todo.PNG" height="150" >
 <br>
 <br>
-<p style="font-size:50px"  align="center" >Introduction</p>
+<h1 align="center" >Introduction</h1>
 
 <p style="font-size:20px" >Qt is a cross-platform GUI application framework that is used for developing application software that can be run on various software and hardware platforms with little or no changes in the underlying code.
 <br>Qt contains a set of item view classes that use a model/view architecture to manage the relationship between data and the way it is presented to the user.Model–view–controller (MVC) is a software design pattern[1] commonly used for developing user interfaces that divide the related program logic into three interconnected elements. 
@@ -14,9 +14,8 @@
 
 
 <br>
-<h1 align="center">Todo App</h1>
+<h1 align="center" >Todo App</h1>
 
----
 <br>
 
 <p style="font-size:18px">The Goal from this App is to create the following interface that manage you tasks. It should have all the features of main application such as menues, actions and toolbar. The application must store an archive of all the pending and finished tasks. </p>
@@ -29,7 +28,7 @@
  * Item Based Model 
  * MVC Model 
 <br>
-<p style="font-size:30px"  align="center" >Item Based Model</p>
+<h1 align="center" >Item Based Model</h1>
 <p style="font-size:18px">All item models are based on the **QAbstractItemModel** class (provides an interface to data that is flexible enough to handle views that represent data in the form of tables, lists, and trees) This class defines an interface that is used by views and delegates to access data. The data itself does not have to be stored in the model.</p>
 
 <p style="font-size:18px">Starting with the intefraces , we will create two interfaces: </P>
@@ -59,7 +58,7 @@
   <p style="font-size:18px">As a second step we will create two classes:<br>* * * * * * * newtask
   <br>* * * * * * * todo </p> 
    
-<p style="font-size:40px" align="center">newtask</p>   
+<h1 align="center">newtask</h1>   
   <p style="font-size:18px" align="center">This class admet the functionnalities of the new task interface , so it's include : </p>
 
 # newtask.h
@@ -167,7 +166,7 @@ return a;
 ```
 <p style="font-size:18px" align="center">Then we will move to create our second class **todo**</p>
 <br>
-<p style="font-size:40px" align="center">todo</p>   
+<h1 align="center">todo</h1>   
   <p style="font-size:18px" align="center">This class admet the functionnalities of the todo interface , so it's include : </p>
 
 # todo.h
@@ -484,11 +483,11 @@ int main(int argc, char *argv[])
 
 ```
 
-<p style="font-size:35px"  align="center" >Test</p>
+<h1  align="center" >Test</h1>
 <img src="todo.gif">
 
 <br>
-<p style="font-size:30px"  align="center" >MVC Model</p>
+<h1 align="center" >MVC Model</h1>
 <p style="font-size:18px" align="center">MVC consists of three kinds of objects. The Model is the application object, the View is its screen presentation, and the Controller defines the way the user interface reacts to user input</p>
 
 <br>
@@ -499,7 +498,7 @@ int main(int argc, char *argv[])
 <p style="font-size:18px" align="center">Also we will use the same newtask class but change the todo class</p>
 
 <br>
-<p style="font-size:40px" align="center">todo</p>   
+<h1 align="center">todo</h1>   
   <p style="font-size:18px" align="center">This class admet the functionnalities of the todo interface , so it's include : </p>
 
 # todo.h
@@ -872,10 +871,10 @@ void ToDo::slot6(){
 }
 connect(ui->actionClose,&QAction::triggered,this,SLOT(slot6()));
 ```
-<p style="font-size:35px"  align="center" >Test</p>
+<h1  align="center" >Test</h1>
 <img src="mvcc.gif">
 
-<p style="font-size:45px"  align="center" >Conclusion</p>
+<h1  align="center" >Conclusion</h1>
 
 <p style="font-size:20px" >The Qt Framework handles the MVC pattern implicitly, especially when we work with pre-built APIs of the model, view, and delegation classes.Combined with the trend of front-end design in recent years, the final choice is QT + Vue + element UI + SQLite (the database is selected according to the needs)
 </p>
