@@ -883,3 +883,6 @@ connect(ui->actionClose,&QAction::triggered,this,SLOT(slot6()));
 * SQLite for data storage
 * Vue + element UI implements the front end
   
+created by:
+ * Chaima Lgdour (CS)
+ * Sayf-Allah Nazihe (CS)
