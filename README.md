@@ -21,7 +21,7 @@
 
 <p style="font-size:18px">The Goal from this App is to create the following interface that manage you tasks. It should have all the features of main application such as menues, actions and toolbar. The application must store an archive of all the pending and finished tasks. </p>
 
-<img src="Capture.PNG">
+<img src="1.PNG">
 <br>
 <p style="font-size:20px"  align="center" >Our project is devided into two parts:</p>
 
