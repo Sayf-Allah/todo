@@ -14,7 +14,7 @@
 
 
 <br>
-<p style="font-size:40px;font-family:verdana;"  align="center" >Todo App</p>
+<p style="font-size:40px"  align="center" >Todo App</p>
 
 ---
 <br>
