@@ -1,4 +1,4 @@
-<img src="todo.PNG" height="150" >
+<img src="todo.png" height="150" >
 <br>
 <br>
 <p style="font-size:50px"  align="center" >Introduction</p>
